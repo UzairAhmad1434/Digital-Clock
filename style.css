@@ -5,16 +5,16 @@
     box-sizing: border-box;
     
     font-family: poppins;
+}
 body{
     background: linear-gradient(#1f4037,#99f2c8);
+    height: 100vh;
     padding: 8rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.container{
-    height: 50%;
-    width: 50%;
+.container{ 
     display: flex;
     flex-direction: column;
     background:linear-gradient(#0F2027,#203A43,#2C5364);
@@ -23,7 +23,7 @@ body{
     border-radius: 5px;
     align-items: center;
     justify-content: center;
-    padding: 4rem 0rem;
+    padding: 4rem 2rem;
 }
 .clock{
     margin-top: 2rem;
@@ -37,15 +37,13 @@ span{
     align-items: center;
 }
 .box{
-    background: #222222;
+    background:linear-gradient(#000000,#434343);
     border-radius: 5px;
     height: 100px;
     width: 150px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border: solid 2px rgb(97, 97, 97);
+    align-items: center;    justify-content: center;
 }
 h1{
     
